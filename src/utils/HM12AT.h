@@ -1,3 +1,17 @@
+/******************************************************************************
+HM12AT.h
+Cytron BlueBee 4.0 Module AT Command List header file
+Created by Ng Beng Chet @ Cytron Technologies Sdn Bhd 
+Original Creation Date: Oct 8, 2015
+https://github.com/CytronTechnologies/Cytron_BlueBee4.0_AT_Library/
+
+Development environment specifics:
+	IDE: Arduino 1.6.5
+	Hardware Platform: Arduino 
+
+Distributed as-is; no warranty is given.
+******************************************************************************/
+
 #ifndef _HM12AT_H_
 #define _HM12AT_H_
 

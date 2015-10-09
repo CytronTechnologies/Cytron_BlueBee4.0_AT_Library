@@ -1,5 +1,19 @@
+/******************************************************************************
+HM12.cpp
+Cytron BlueBee 4.0 Module Library file
+Created by Ng Beng Chet @ Cytron Technologies Sdn Bhd 
+Original Creation Date: Oct 8, 2015
+https://github.com/CytronTechnologies/Cytron_BlueBee4.0_AT_Library/
+
+Development environment specifics:
+	IDE: Arduino 1.6.5
+	Hardware Platform: Arduino 
+
+Distributed as-is; no warranty is given.
+******************************************************************************/
+
 #include "HM12.h"
-#include "HM12AT.h"
+#include "utils/HM12AT.h"
 
 HM12::HM12(uint8_t rxpin, uint8_t txpin)
 {  
