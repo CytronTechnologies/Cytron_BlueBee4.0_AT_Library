@@ -10,22 +10,22 @@ List of APIs:
   - pin 2 from Arduino act as RX connecting to TX of BlueBee 4.0
   - pin 3 from Arduino act as TX connecting to RX of BlueBee 4.0
   
-2. <strong>bool begin(unsigned long baudrate)</strong></br>Initialize the UART communication at specified baudrate. Default baudrate for BlueBee 4.0 is 115200. Returns true if successful.
+2. bool <strong>begin(unsigned long baudrate)</strong></br>Initialize the UART communication at specified baudrate. Default baudrate for BlueBee 4.0 is 115200. Returns true if successful.
 
   E.g.<strong> BlueBee.begin(115200) </strong>
   
-3. <strong>void end()</strong></br>End the UART communication between Arduino and BlueBee 4.0.
+3. void <strong>end()</strong></br>End the UART communication between Arduino and BlueBee 4.0.
 
   E.g.<strong> BlueBee.end() </strong>
   
-4. <strong>bool setBaud(unsigned long baudrate)</strong></br>Set the UART baudrate of BlueBee 4.0. Returns true if successful.
+4. bool <strong>setBaud(unsigned long baudrate)</strong></br>Set the UART baudrate of BlueBee 4.0. Returns true if successful.
 
   E.g.<strong> BlueBee.setBaud(9600) </strong>
 
-5. <strong>bool test()</strong></br>Test the communication with BlueBee 4.0. Returns true if successful.
+5. bool <strong>test()</strong></br>Test the communication with BlueBee 4.0. Returns true if successful.
 
   E.g.<strong> BlueBee.test() </strong>
 
-6. <strong>bool reset()</strong></br>Reset BlueBee 4.0. Returns true if successful.
+6. bool <strong>reset()</strong></br>Reset BlueBee 4.0. Returns true if successful.
 
   E.g.<strong> BlueBee.reset() </strong>
