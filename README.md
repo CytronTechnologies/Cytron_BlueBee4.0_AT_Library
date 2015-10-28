@@ -86,7 +86,7 @@ List of APIs:
 
     E.g.<strong> char c = BlueBee.read(); </strong>
 
-<strong> Additonal info:</strong></br>
+# Additonal info:
 In <strong>extras</strong> folder, </br>
 - BTTool.apk - android phone apps for communicating with BlueBee  4.0
 - bluetoothdual_en.pdf - User manual for the HM12 module, consists of full AT command list
