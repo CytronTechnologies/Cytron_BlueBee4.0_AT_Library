@@ -56,13 +56,22 @@ List of APIs:
 
 15. String <strong>EDRMacAddress()</strong></br> Returns BlueBee 4.0 EDR mac address in string form.
 
-16. 
+16. bool <strong>setMode(uint8_t)</strong></br> Set mode for BlueBee 4.0. 0 - normal, 1 - remote. Returns true if successful.
 
-	bool setMode(uint8_t);
-	uint8_t getMode();
-	bool setRole(uint8_t);
-	uint8_t getRole();
-	bool setDualMode(bool);
-	bool isDualMode();
+    E.g.<strong> BlueBee.setMode(1); </strong> - set BlueBee 4.0 to remote mode.
+
+17. uint8_t <strong>getMode()</strong></br> Get mode info from BlueBee 4.0. Returns 0 for normal mode and 1 for remote mode.
+
+18. bool <strong>setRole(uint8_t)</strong></br> Set role for BlueBee 4.0 in BLE model. SLAVE or MASTER. Returns true if successful.
+
+    E.g.<strong> BlueBee.setRole(MASTER); </strong> - set BlueBee 4.0 to master device.
+
+19. uint8_t <strong>getRole()</strong></br> Get role info from BlueBee 4.0 in BLE mode. Returns 0 for SLAVE and 1 for MASTER.
+
+20. bool <strong>setDualMode(bool)</strong></br> Set BlueBee 4.0 to dual mode. TRUE - dual mode, FALSE - single mode. Returns true if successful.
+
+21. bool <strong>isDuelMode()</strong></br> Check if BlueBee 4.0 is in dual mode. Returns TRUE if dual mode, FALSE if single mode.
+
+
 	int getRSSI();
 	bool searchForNewDevice();
