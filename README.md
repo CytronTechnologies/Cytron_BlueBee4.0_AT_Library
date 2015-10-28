@@ -29,3 +29,32 @@ List of APIs:
 6. bool <strong>reset()</strong></br>Reset BlueBee 4.0. Returns true if successful.
 
   E.g.<strong> BlueBee.reset() </strong>
+
+7. bool <strong>digitalWrite(uint8_t pin, uint8_t state)</strong></br> set output of BlueBee 4.0 I/O. Returns true if successful.
+
+  E.g.<strong> BlueBee.digitalWrite(2, HIGH) </strong>
+  
+8. uint8_t <strong>digitalRead(uint8_t pin, uint8_t state)</strong></br> Returns BlueBee 4.0 I/O status, HIGH or LOW.
+
+  E.g.<strong> BlueBee.digitalRead(2) </strong>
+  
+9. String <strong>firmwareVersion()</strong></br> Returns BlueBee 4.0 firmware version in string form.
+
+10.bool <strong>setBLEName(String name)</strong></br> Set BLE name for BlueBee 4.0. Returns true if successful.
+
+  E.g.<strong> BlueBee.digitalRead(2) </strong>
+
+	bool setBLEName(String name);
+	bool setEDRName(String name);
+	String BLEName();
+	String EDRName();
+	String BLEMacAddress();
+	String EDRMacAddress();
+	bool setMode(uint8_t);
+	uint8_t getMode();
+	bool setRole(uint8_t);
+	uint8_t getRole();
+	bool setDualMode(bool);
+	bool isDualMode();
+	int getRSSI();
+	bool searchForNewDevice();
