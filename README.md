@@ -70,8 +70,19 @@ List of APIs:
 
 20. bool <strong>setDualMode(bool)</strong></br> Set BlueBee 4.0 to dual mode. TRUE - dual mode, FALSE - single mode. Returns true if successful.
 
-21. bool <strong>isDuelMode()</strong></br> Check if BlueBee 4.0 is in dual mode. Returns TRUE if dual mode, FALSE if single mode.
+21. bool <strong>isDualMode()</strong></br> Check if BlueBee 4.0 is in dual mode. Returns TRUE if dual mode, FALSE if single mode.
 
+22. int <strong>getRSSI()</strong></br> Get RSSI value of the connected device to BlueBee 4.0 (only works if BlueBee 4.0 is connected to other device).
 
-	int getRSSI();
-	bool searchForNewDevice();
+23. bool <strong>searchForNewDevice()</strong></br> Search for new device to connect when BlueBee 4.0 is in master role. Returns true if successful.
+
+24. void <strong>print(data)</strong></br> Send data to connected device.
+
+    E.g.<strong> BlueBee.print("Hello World"); </strong> - Send "Hello World" to connected device.
+    
+25. int <strong>available()</strong></br> Check if there is received data from connected device. Returns number of data bytes received.
+
+26. int <strong>read()</strong></br> Read data from connected device.
+
+    E.g.<strong> char c = BlueBee.read(); </strong>
+
