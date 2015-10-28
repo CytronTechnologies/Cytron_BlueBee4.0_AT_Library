@@ -10,5 +10,9 @@ List of APIs:
   - pin 2 from arduino act as RX connecting to TX of BlueBee 4.0
   - pin 3 from arduino act as TX connecting to RX of BlueBee 4.0
   
-2. 
+2. <strong>begin(unsigned long baudrate)</strong></br>Initialize the UART communication at specified baudrate. Default baudrate for BlueBee 4.0 is 115200.
+
+  E.g.<strong> BlueBee.begin(115200) </strong>
+  
+3. 
 
