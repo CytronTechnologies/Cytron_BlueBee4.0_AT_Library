@@ -34,7 +34,7 @@ List of APIs:
 
   E.g.<strong> BlueBee.digitalWrite(2, HIGH); </strong>
   
-8. uint8_t <strong>digitalRead(uint8_t pin, uint8_t state)</strong></br> Returns BlueBee 4.0 I/O status, HIGH or LOW.
+8. uint8_t <strong>digitalRead(uint8_t pin)</strong></br> Returns BlueBee 4.0 I/O status, HIGH or LOW.
 
   E.g.<strong> BlueBee.digitalRead(2); </strong>
   
