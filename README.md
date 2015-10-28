@@ -76,7 +76,7 @@ List of APIs:
 
 23. bool <strong>searchForNewDevice()</strong></br> Search for new device to connect when BlueBee 4.0 is in master role. Returns true if successful.
 
-24. void <strong>print(data)</strong></br> Send data to connected device.
+24. void <strong>print(data)</strong></br> Send data to connected device. dat can be integer, string, const char*, same as Serial library.
 
     E.g.<strong> BlueBee.print("Hello World"); </strong> - Send "Hello World" to connected device.
     
