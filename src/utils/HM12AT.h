@@ -21,7 +21,8 @@ Distributed as-is; no warranty is given.
 uint8_t RESPONSE_OK[] = "OK";
 uint8_t RESPONSE_GET[] = "OK+Get:";
 uint8_t RESPONSE_SET[] = "OK+Set:";
-uint8_t RESPONSE_RSSI[] = "OK+RSSB:";
+uint8_t RESPONSE_RSSB[] = "OK+RSSB:";
+uint8_t RESPONSE_RSSE[] = "OK+RSSE:";
 uint8_t RESPONSE_RST[] = "OK+RESET";
 uint8_t RESPONSE_CLEARB[] = "OK+CLEAB";
 
@@ -40,7 +41,8 @@ const char HM12_MODE[] PROGMEM= "+MODE";
 const char HM12_ROLE[] PROGMEM= "+ROLB";
 const char HM12_DUAL[] PROGMEM= "+DUAL";
 const char HM12_UART[] PROGMEM= "+BAUD"; // Factory reset
-const char HM12_RSSI[] PROGMEM= "+RSSB";
+const char HM12_RSSB[] PROGMEM= "+RSSB";
+const char HM12_RSSE[] PROGMEM= "+RSSE";
 const char HM12_CLEAB[] PROGMEM= "+CLEAB";
 const char	HM12_PIN[] PROGMEM= "+PIO";
 

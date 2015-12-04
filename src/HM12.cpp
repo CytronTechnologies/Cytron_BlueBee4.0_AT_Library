@@ -233,10 +233,21 @@ bool HM12::isDualMode()
 	return false; 
 }
 
-int HM12::getRSSI()
+int HM12::getRSSB()
 {
-	sendCommand(HM12_RSSI,HM12_CMD_QUERY);
-	if(readForResponse(RESPONSE_RSSI))
+	sendCommand(HM12_RSSB,HM12_CMD_QUERY);
+	if(readForResponse(RESPONSE_RSSB))
+	{
+		return _buffer.toInt();
+	}
+	
+	return 0; 
+}
+
+int HM12::getRSSE()
+{
+	sendCommand(HM12_RSSE,HM12_CMD_QUERY);
+	if(readForResponse(RESPONSE_RSSE))
 	{
 		return _buffer.toInt();
 	}

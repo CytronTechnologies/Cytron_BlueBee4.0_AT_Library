@@ -35,7 +35,8 @@ class HM12: public Stream
 	uint8_t getRole();
 	bool setDualMode(bool);
 	bool isDualMode();
-	int getRSSI();
+	int getRSSB();
+	int getRSSE();
 	bool searchForNewDevice();
 	
 	int available();
