@@ -1,5 +1,10 @@
 # Cytron_BlueBee4.0_AT_Library
 
+# Additonal info:
+In <strong>extras</strong> folder, </br>
+- BTTool.apk - android phone apps for communicating with BlueBee  4.0
+- bluetoothdual_en.pdf - User manual for the HM12 module, consists of full AT command list
+
 This library provides users API to communicate with BlueBee 4.0 with Arduino.
 
 List of APIs:
@@ -85,8 +90,3 @@ List of APIs:
 26. int <strong>read()</strong></br> Read data from connected device.
 
     E.g.<strong> char c = BlueBee.read(); </strong>
-
-# Additonal info:
-In <strong>extras</strong> folder, </br>
-- BTTool.apk - android phone apps for communicating with BlueBee  4.0
-- bluetoothdual_en.pdf - User manual for the HM12 module, consists of full AT command list
