@@ -1,10 +1,11 @@
-# Cytron_BlueBee4.0_AT_Library
+# Cytron_BlueBee4.0
 
 # Additonal info:
 In <strong>extras</strong> folder, </br>
 - BTTool.apk - android phone apps for communicating with BlueBee  4.0
 - bluetoothdual_en.pdf - User manual for the HM12 module, consists of full AT command list
 
+# AT_Library
 This library provides users API to communicate with BlueBee 4.0 with Arduino.
 
 List of APIs:
